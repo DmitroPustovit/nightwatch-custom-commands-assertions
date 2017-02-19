@@ -23,7 +23,7 @@ function assertion(selector, msg) {
 		if (!result) {
 			return false;
 		}
-		return result.value;
+		return result.ELEMENT;
 	};
 
 	this.command = function (callback) {
